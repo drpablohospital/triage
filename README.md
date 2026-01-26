@@ -39,9 +39,11 @@ tools - Herramientas de formato y análisis de datos
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 .\venv\Scripts\activate   # Windows
+```
+
 Instalar dependencias:
 
-bash
+```bash
 pip install -r requirements.txt
 🚦 Uso
 Entrenamiento
@@ -54,6 +56,7 @@ Implementación clínica
 python
 from transformers import pipeline
 triage_ai = pipeline("text-classification", model="tu_usuario/bert_triage_priority")
+```
 
 ## 📊 Modelos Disponibles
 Modelo	Kappa	Rendimiento	Enlace
