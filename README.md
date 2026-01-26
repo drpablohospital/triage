@@ -43,7 +43,7 @@ source venv/bin/activate  # Linux/Mac
 .\venv\Scripts\activate   # Windows
 ```
 
-Instalar dependencias:
+2. Instalar dependencias:
 
 ```bash
 pip install -r requirements.txt
