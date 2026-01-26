@@ -26,13 +26,11 @@ Repositorio para la tesis **"Automatización del Triage en Servicios de Urgencia
 | Implementación | Hugging Face, Gradio |
 
 ## 📂 Estructura del Repositorio
-/
+
 db - Conjuntos de entrenamiento y validación
 dep - Interferencias para los modelos (Apps)
 logs - Salida estandar de terminal de entrenamiento de los modelos
 tools - Herramientas de formato y análisis de datos
-
-text
 
 ## 🔧 Instalación
 
