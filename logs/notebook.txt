@@ -1,0 +1,32 @@
+Recomendaciones para ajustes técnicos del modelo
+Problema: Discrepancia entre Kappa alto en entrenamiento (>0.7) y bajo en control (~0.5).
+Posibles causas y soluciones:
+
+Sobreajuste (overfitting):
+
+Aplicar regularización (L1/L2, dropout).
+
+Usar early stopping si es una red neuronal.
+
+Simplificar la arquitectura del modelo.
+
+Sesgo en los datos de control:
+
+Verificar que la distribución de clases/features sea similar al conjunto de entrenamiento.
+
+Aplicar validación cruzada estratificada.
+
+Feature engineering:
+
+Revisar correlaciones o data leakage (variables que "filtran" información del futuro).
+
+Utilizar SHAP/LIME para interpretar decisiones del modelo.
+
+Próximos pasos inmediatos:
+
+Entrenar versiones balanceadas y no balanceadas del modelo.
+
+Implementar un ensemble (voting classifier o stacking) para combinar predicciones de BERT y T5.
+
+
+/ / / / /
