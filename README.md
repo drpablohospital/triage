@@ -27,30 +27,10 @@ Repositorio para la tesis **"Automatización del Triage en Servicios de Urgencia
 
 ## 📂 Estructura del Repositorio
 /
-├── /dev # Versiones antiguas (no productivas)
-│ ├── /datasets # Bases de datos anonimizadas
-│ ├── /trainers # Entrenadores obsoletos
-│ └── /models_links.txt # Enlaces a modelos antiguos
-│
-├── /tools # Herramientas de procesamiento
-│ ├── pdf_to_txt.py # Conversión PDF→TXT
-│ ├── txt_to_csv.py # Transformación a CSV estructurado
-│ ├── data_cleaning.py # Limpieza de datos
-│ ├── auto_classifier.py # Clasificación automática
-│ └── eval_tools/ # Evaluación de modelos
-│
-├── /dep # Implementación clínica
-│ ├── huggingface_apps/ # Códigos para HF Spaces
-│ └── clinical_eval/ # Evaluación en entorno real
-│
-├── /venv # Entorno virtual (local)
-│
-├── /docs # Documentación técnica
-├── /results # Métricas y logs de entrenamiento
-├── datasets_processed/ # Datos listos para entrenamiento
-├── trainers/ # Entrenadores actualizados
-├── models_links.txt # Enlaces a modelos finales
-└── requirements.txt # Dependencias
+db - Conjuntos de entrenamiento y validación
+dep - Interferencias para los modelos (Apps)
+logs - Salida estandar de terminal de entrenamiento de los modelos
+tools - Herramientas de formato y análisis de datos
 
 text
 
